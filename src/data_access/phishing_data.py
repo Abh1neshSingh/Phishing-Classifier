@@ -11,6 +11,7 @@ from src.exception import CustomException
 import os
 
 
+
 class PhisingData:
     """
     This class help to export entire mongo db record as pandas dataframe
@@ -50,7 +51,7 @@ class PhisingData:
         return df
 
     def export_collections_as_dataframe(
-            self) -> pd.DataFrame:
+            self) -> pd.DataFrame: 
         try:
             """
             export entire collectin as dataframe:

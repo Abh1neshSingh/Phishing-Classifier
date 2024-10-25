@@ -17,7 +17,6 @@ from src.logger import logging
 from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
-
 @dataclass
 class DataTransformationConfig:
     data_transformation_dir = os.path.join(artifact_folder, 'data_transformation')
