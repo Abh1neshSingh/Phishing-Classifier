@@ -8,7 +8,7 @@ from src.constant import *
 from src.exception import CustomException
 from src.logger import logging
 
-from src.data_access.phishing_data import PhisingData
+from src.data_access.database_connect import PhisingData
 from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
